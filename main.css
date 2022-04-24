@@ -4,6 +4,7 @@ header {
 }
 body{
     background-color: #292223;
+    background-image: url("images/background_image.jpg");
 }
 #nav_menu {
 	list-style-type: none;
@@ -53,7 +54,6 @@ ul#nav_menu > ul::after {
 .jumbotron{
     text-align: center;
     height: 350px;
-    background-image: url("images/background_image.jpg");
     background-size: cover;
 }
 .card-deck{
