@@ -4,7 +4,6 @@ header {
 }
 body{
     background-color: #292223;
-    background-image: url("images/background_image.jpg");
 }
 #nav_menu {
 	list-style-type: none;
@@ -55,6 +54,7 @@ ul#nav_menu > ul::after {
     text-align: center;
     height: 350px;
     background-size: cover;
+    background-image: url("images/background.jpeg");
 }
 .card-deck{
     padding: 20px 40px;
@@ -62,6 +62,7 @@ ul#nav_menu > ul::after {
 
 .jumbotron h1{
     padding-top: 100px;
+    color: white;
 }
 footer{
     position: relative;
@@ -164,4 +165,15 @@ input[type=comment]{
 #main embed{
     padding-left: 100px;
     padding-right: 20%;
+}
+img.resize {
+    width:40px; /* you can use % */
+    height: auto;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+img.cardsize{
+    width: 100%;
+    height: auto;
 }
