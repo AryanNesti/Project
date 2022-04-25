@@ -113,17 +113,20 @@ footer{
         width: 100%;
         margin: 0;
         padding: 14px;
+        float: right;
     }
 
     .topnav input[type=text] {
         border: 1px solid #ccc;  
     }
+
 }
 .topnav a{
     background-color: #4d8686;
     margin-bottom: 4px;
     margin-top: 4px;
     margin-right: 4px;
+    float: right;
 }
 html,body {
     height: 100%;
@@ -163,7 +166,7 @@ input[type=comment]{
     color: white;
 }
 #main embed{
-    padding-left: 100px;
+    padding-left: 5%;
     padding-right: 20%;
 }
 img.resize {
