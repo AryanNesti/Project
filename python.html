@@ -8,14 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
-    <div class="topnav">
+    <link rel="shortcut icon" href="images/logo_nrX_icon.ico">
+    <script src="https://kit.fontawesome.com/f28ba794e7.js" crossorigin="anonymous"></script>
+    <!-- <div class="topnav">
         <img class="resize" src="images/logo_nrX_icon.ico">
         <input type="text" placeholder="Search..">
         <a id="white" href="https://www.linkedin.com/in/aryan-nesti-047611222/">Linkden</a>
-    </div>
+    </div> -->
   </head>
 
 
@@ -23,34 +26,98 @@
 
     </nav>
     <ul id="nav_menu">
-        <li>
-            <a href="index.html" class="white">Home</a>
-        </li>
-        <li>
-            <a href="Projects.html" class="white">Projects</a>
-            <ul id="sub">
-                <li><a href="c++.html" class="white">C++</a></li>
-                <li><a href="python.html" class="current">Python</a></li>
-                <li><a href="miscellaneous.html" class="white">Miscellaneous</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="contacts.html" class="white">Contact</a>
-            <ul id="sub">
-              <li><a href="resume.html" class="white">Resume</a></li>
-            </ul>
-        </li>
-
+      <li>
+        <img class="resize" src="images/logo_nrX_icon.ico">
+      </li>
+      <li>
+        <a href="index.html" class="white">Home</a>
+      </li>
+      <li>
+          <a href="Projects.html" class="white">Projects</a>
+          <ul id="sub">
+            <li><a href="python.html" class="current">Python</a></li>
+            <li><a href="c++.html" class="white">C++</a></li>
+            <li><a href="miscellaneous.html" class="white">Web Development</a></li>
+            <li><a href="projects.html" class="white">All Projects</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="contacts.html" class="white">Contacts</a>
+          <ul id="sub">
+            <li><a href="resume.html" class="white">Resume</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="linkedin" href="https://www.linkedin.com/in/aryan-nesti-047611222/">Linkden</a>
+      </li>
     </ul>
   <body>
       <div id="container">
             <h1 class="move">Programs in Python</h1>
           <div id="main">
             <div class="card-deck">
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/background_image.jpg" alt="Card image cap"> -->
+                <img class="cardsize" src="images/SSSI.png" alt="SSSI">
+                <div class="card-body">
+                  <a href="https://github.com/AryanNesti/SSSI/tree/milestone-4"><h4 class="card-title"><i class="fa-regular fa-link"></i> Semantic Segmentation of Satellite images</h4></a>
+                  <p class="card-text">This is a Machine Learning Project where we used Neural Networks (NNI) Web UI and allowing us to view the progress of the Unet model that would read Satellite Imagery and determine landmarks ranging from wildlife, buildings, water, roads, and more. </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">python</small>
+                  <small class="text-muted">Machine Learning</small>
+                  <small class="text-muted">HyperOptimization</small>
+                  <small class="text-muted">Knowledge Distillation</small>
+                  <small class="text-muted">Level Prunning</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="cardsize" src="images/EMG.png" alt="EMG">
+                <div class="card-body">
+                  <a href="https://github.com/AryanNesti/Electromyography-and-Gradient-Boosting"><h4 class="card-title"><i class="fa-regular fa-link"></i> Electromyography and Gradient Boosting</h4></a>
+                  <p class="card-text">This Machine Learning Project we coded and used a cosinusoidal dataset and implemented gradient boosting on an EMG dataset</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">python</small>
+                  <small class="text-muted">Machine Learning</small>
+                  <small class="text-muted">Gradient Boosting</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="cardsize" src="images/click_through_rate.png" alt="Project Image Here">
+                <div class="card-body">
+                  <a href="https://github.com/AryanNesti/Logistic-Regression"><h4 class="card-title"><i class="fa-regular fa-link"></i> Click-Through Rate Prediction</h4></a>
+                  <p class="card-text">We predicted the click through rate based on the data provided from the <a href="https://www.kaggle.com/competitions/avazu-ctr-prediction">kaggle</a>, in where I wrote the logistic regression solution from scratch for the prediction problem, that can work with Stochastic Gradient Descent (SGD). </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">python</small>
+                  <small class="text-muted">SGD</small>
+                  <small class="text-muted">numPy</small>
+                  <small class="text-muted">logistic regression</small>
+                  <small class="text-muted">pandas</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="cardsize" src="images/392project.png" alt="Tweet Analyzer">
+                <div class="card-body">
+
+                  <a href="https://github.com/AryanNesti/Natural-Language-Processing-with-Disaster-Tweets"><h4 class="card-title"><i class="fa-regular fa-link"></i> Natural Language Processing with Disaster Tweets</h4></a>
+                  <p class="card-text">This project we compared the Decision Tree Classifier, Random Forrest Classifier, SVM Classifier from the sklearn library on Categorizing Articles based on the their content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Python</small>
+                  <small class="text-muted">Machine Learning</small>
+                  <small class="text-muted">Decision Tree</small>
+                  <small class="text-muted">Random Forrest</small>
+                  <small class="text-muted">SVM</small>
+                </div>
+              </div>
+            </div>
+            <div class="card-deck">
                 <div class="card">
                   <img class="cardsize" src="images/space-invaders.jpeg" alt="Space Invaders">
                   <div class="card-body">
-                    <h4 class="card-title">Space Invaders</h4>
+                    <h4 class="card-title"><i class="fa-regular fa-link"></i> Space Invaders</h4>
                     <p class="card-text">This python program is of the vintage game of space invaders. It was programmed using pycharm and was just small project to learn python and pycharm entering into college and pass the credit by exam exam for cs100</p>
                   </div>
                   <div class="card-footer">
@@ -60,75 +127,46 @@
                 <div class="card">
                   <img class="cardsize" src="images/data-processing.png" alt="Data Processor">
                   <div class="card-body">
-                    <h4 class="card-title">Data Processor</h4>
+                    <a href="https://github.com/AryanNesti/Data-Processor"><h4 class="card-title"><i class="fa-regular fa-link"></i> Data Processor</h4></a>
                     <p class="card-text">This python program takes the input of a csv file with article text, IDs and categories. The goal of the program uses the text and determines the Term Frequency Inverse Document Frequency(TFIDF) and then puts a matrix of TFIDF into one file, the top frequent words into another file and then the avererage TFIDF into another file.</p>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Python</small>
+                    <small class="text-muted">python</small>
+                    <small class="text-muted">pandas</small>
+                    <small class="text-muted">sklearn</small>
+                    <small class="text-muted">numPy</small>
                   </div>
                 </div>
                 <div class="card">
-                  <img class="cardsize" src="images/articlelabeler.png" alt="Article Labeler">
+                  <img class="cardsize" src="images/Article_Categorizer.png" alt="Space Invader">
                   <div class="card-body">
-                    <h4 class="card-title">Article Labeler</h4>
-                    <p class="card-text">This python code is to classify documents in a corpus. We use machine learning to train a variety of tree-based models and evaluate each one using 5-fold cross-validation. We determine the labels of the articles by using the models to predict the labels. The models used were Decision Tree and random forrest.</p>
+                    <a href="https://github.com/AryanNesti/Article-Categorizer"><h4 class="card-title"><i class="fa-regular fa-link"></i> Article Categorizer</h4></a>
+                    <p class="card-text">This project we compared the Decision Tree Classifier, Random Forrest Classifier, SVM Classifier from the sklearn library on Categorizing Articles based on the their content.</p>
                   </div>
                   <div class="card-footer">
                     <small class="text-muted">Python</small>
+                    <small class="text-muted">Machine Learning</small>
+                    <small class="text-muted">Decision Tree</small>
+                    <small class="text-muted">Random Forrest</small>
+                    <small class="text-muted">SVM</small>
                   </div>
                 </div>
                 <div class="card">
                   <img class="cardsize" src="images/articlelabeler.png" alt="Article Labeler">
                     <div class="card-body">
-                      <h4 class="card-title">Article Labeler 2.0</h4>
+                      <a href="https://github.com/AryanNesti/Article-Categorizer-2.0"><h4 class="card-title"><i class="fa-regular fa-link"></i> Article Labeler 2.0</h4></a>
                     <p class="card-text">This python code is a extension of Article Labeler, however in this program we compare the uses of SVM and ranodm forrest allong with comparing word embeddings, count vectorizer and TFIDF vectorizer.</p>
                     </div>
                     <div class="card-footer">
                       <small class="text-muted">Python</small>
+                    <small class="text-muted">Machine Learning</small>
+                    <small class="text-muted">Decision Tree</small>
+                    <small class="text-muted">Random Forrest</small>
+                    <small class="text-muted">SVM</small>
+                    <small class="text-muted">TFIDF</small>
+                    <small class="text-muted">word2vector</small>
                     </div>
                 </div>
-            </div>
-            <div class="card-deck">
-                <div class="card">
-                  <img class="cardsize" src="images/392project.png" alt="Natural Language Processing with Disaster Tweets">
-                  <div class="card-body">
-                    <h4 class="card-title">Natural Language Processing with Disaster Tweets</h4>
-                    <p class="card-text">This is a Kaggle competition in which we do something similar to the Article Labeler but instead we determine wheather or not a tweet is about a real disaster or not. In this attempt we use SVM model with a TFIDF vectorizer.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Python</small>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="cardsize" src="images/392project.png" alt="Natural Language Processing with Disaster Tweets">
-                  <div class="card-body">
-                    <h4 class="card-title">Natural Language Processing with Disaster Tweets 2.0</h4>
-                    <p class="card-text">This is a continuation of Natural Language Processing with Disaster Tweets. However here we use tensor flow and Bert along with a bit of preprocessing to get higher accuracy on the competition.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Python</small>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="cardsize" src="images/392project.png" alt="Natural Language Processing with Disaster Tweets">
-                  <div class="card-body">
-                    <h4 class="card-title">Natural Language Processing with Disaster Tweets 3.0</h4>
-                    <p class="card-text">This is third installment of Natural Language Processing with Disaster Tweets.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Python</small>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="" alt="Project Image Here">
-                    <div class="card-body">
-                      <h4 class="card-title">Program Name</h4>
-                      <p class="card-text">Small program description...</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Python</small>
-                    </div>
-                  </div>
             </div>
           </div>
       </div>
@@ -145,32 +183,32 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/aryan.nesti" role="button"
           ><i class="fab fa-facebook-f"></i
         ></a>
   
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-twitter"></i
-        ></a>
+        ></a> -->
   
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:AryanNesti60@gmail.com" role="button"
           ><i class="fab fa-google"></i
         ></a>
   
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!fa" role="button"
           ><i class="fab fa-instagram"></i
-        ></a>
+        ></a> -->
   
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/aryan-nesti-047611222/" role="button"
           ><i class="fab fa-linkedin-in"></i
         ></a>
   
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AryanNesti" role="button"
           ><i class="fab fa-github"></i
         ></a>
       </section>

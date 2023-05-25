@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/logo_nrX_icon.ico">
     <meta charset="utf-8">
@@ -16,76 +17,140 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/f28ba794e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
 
-    <div class="topnav">
-        <img class="resize" src="images/logo_nrX_icon.ico">
-        <input type="text" placeholder="Search..">
-        <a id="white" href="https://www.linkedin.com/in/aryan-nesti-047611222/">Linkden</a>
-    </div>
   </head>
     <nav id="mobile_menu">
 
     </nav>
     <ul id="nav_menu">
-        <li>
-            <a href="index.html" class="current">Home</a>
-        </li>
-        <li>
-            <a href="Projects.html" class="white">Projects</a>
-            <ul id="sub">
-              <li><a href="c++.html" class="white">C++</a></li>
-              <li><a href="python.html" class="white">Python</a></li>
-              <li><a href="miscellaneous.html" class="white">Miscellaneous</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="contacts.html" class="white">Contacts</a>
-            <ul id="sub">
-              <li><a href="resume.html" class="white">Resume</a></li>
-            </ul>
-        </li>
-
+      <li>
+        <img class="resize" src="images/logo_nrX_icon.ico">
+      </li>
+      <li>
+        <a href="index.html" class="current">Home</a>
+      </li>
+      <li>
+          <a href="Projects.html" class="white">Projects</a>
+          <ul id="sub">
+            <li><a href="python.html" class="white">Python</a></li>
+            <li><a href="c++.html" class="white">C++</a></li>
+            <li><a href="miscellaneous.html" class="white">Web Development</a></li>
+            <li><a href="projects.html" class="white">All Projects</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="contacts.html" class="white">Contacts</a>
+          <ul id="sub">
+            <li><a href="resume.html" class="white">Resume</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="linkedin" href="https://www.linkedin.com/in/aryan-nesti-047611222/">Linkden</a>
+      </li>
     </ul>
   <body>
     <div id="container">
         <div class="jumbotron text-center">
             <h1>Welcome</h1>
             <p class="white">My name is Aryan Nesti and this website is to showcase my skills</p> 
-          </div>
+        </div>
+        
+
         <div id="main">
+          <!-- <div class="row">
+            <div class="column">
+              <div class="card">
+                <img class="cardsize" src="images/SSSI.png" alt="SSSI">
+                <div class="card-body">
+                  <h4 class="card-title" >Semantic Segmentation of Satellite images</h4>
+                  <p class="card-text">This is a Machine Learning Project where we used Neural Networks (NNI) Web UI and allowing us to view the progress of the Unet model that would read Satellite Imagery and determine landmarks ranging from wildlife, buildings, water, roads, and more. </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Python</small>
+                  <small class="text-muted">HyperOptimization</small>
+                  <small class="text-muted">Knowledge Distillation</small>
+                  <small class="text-muted">Level Prunning</small>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img class="cardsize" src="images/EMG.png" alt="EMG">
+                <div class="card-body">
+                  <h4 class="card-title">Electromyography and Gradient Boosting</h4>
+                  <p class="card-text">This Machine Learning Project we coded and used a cosinusoidal dataset and implemented gradient boosting on an EMG dataset</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Python</small>
+                  <small class="text-muted">Machine Learning</small>
+                  <small class="text-muted">Gradient Boosting</small>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img class="cardsize" src="images/Article_Categorizer.png" alt="Space Invader">
+                <div class="card-body">
+                  <h4 class="card-title">Article Categorizer</h4>
+                  <p class="card-text">This project we compared the Decision Tree Classifier, Random Forrest Classifier, SVM Classifier from the sklearn library on Categorizing Articles based on the their content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Python</small>
+                  <small class="text-muted">Machine Learning</small>
+                  <small class="text-muted">Decision Tree</small>
+                  <small class="text-muted">Random Forrest</small>
+                  <small class="text-muted">SVM</small>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+
             <div class="card-deck">
-                <div class="card">
-                  <!-- <img class="card-img-top" src="images/background_image.jpg" alt="Card image cap"> -->
-                  <img class="cardsize" src="images/parser.png" alt="Parser">
-                  <div class="card-body">
-                    <h4 class="card-title">Parser</h4>
-                    <p class="card-text">This C++ program is a part of a set of 3 programs a parser, Interperter and a LExical Analyzer. The parser takes and uses the Lexical Analyzer and creates its own syntax from a set built syntax.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">C++</small>
-                  </div>
+              <div class="card">
+                <!-- <img class="card-img-top" src="images/background_image.jpg" alt="Card image cap"> -->
+                <img class="cardsize" src="images/SSSI.png" alt="SSSI">
+                <div class="card-body">
+                  <a href="https://github.com/AryanNesti/SSSI/tree/milestone-4"><h4 class="card-title"><i class="fa-regular fa-link"></i> Semantic Segmentation of Satellite images</h4></a>
+                  <p class="card-text">This is a Machine Learning Project where we used Neural Networks (NNI) Web UI and allowing us to view the progress of the Unet model that would read Satellite Imagery and determine landmarks ranging from wildlife, buildings, water, roads, and more. </p>
                 </div>
-                <div class="card">
-                  <img class="cardsize" src="images/directory-sorter.png" alt="Directory Sorter">
-                  <div class="card-body">
-                    <h4 class="card-title">Directory Sorter</h4>
-                    <p class="card-text">This C program takes a directory as an argument and processes through the directory and then sorts them respective to their size.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">C</small>
-                  </div>
+                <div class="card-footer">
+                  <small class="text-muted">python</small>
+                  <small class="text-muted">Machine Learning</small>
+                  <small class="text-muted">HyperOptimization</small>
+                  <small class="text-muted">Knowledge Distillation</small>
+                  <small class="text-muted">Level Prunning</small>
                 </div>
-                <div class="card">
-                  <img class="cardsize" src="images/space-invaders.jpeg" alt="Space Invader">
-                  <div class="card-body">
-                    <h4 class="card-title">Space Invaders</h4>
-                    <p class="card-text">This python program is of the vintage game of space invaders. It was programmed using pycharm and was just small project to learn python and pycharm entering into college and pass the credit by exam exam for cs100</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Python</small>
-                  </div>
+              </div>
+              <div class="card">
+                <img class="cardsize" src="images/EMG.png" alt="EMG">
+                <div class="card-body">
+                  <a href="https://github.com/AryanNesti/Electromyography-and-Gradient-Boosting"><h4 class="card-title"><i class="fa-regular fa-link"></i> Electromyography and Gradient Boosting</h4></a>
+                  <p class="card-text">This Machine Learning Project we coded and used a cosinusoidal dataset and implemented gradient boosting on an EMG dataset</p>
                 </div>
+                <div class="card-footer">
+                  <small class="text-muted">python</small>
+                  <small class="text-muted">Machine Learning</small>
+                  <small class="text-muted">Gradient Boosting</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="cardsize" src="images/Article_Categorizer.png" alt="Space Invader">
+                <div class="card-body">
+                  <a href="https://github.com/AryanNesti/Article-Categorizer"><h4 class="card-title"><i class="fa-regular fa-link"></i> Article Categorizer</h4></a>
+                  <p class="card-text">This project we compared the Decision Tree Classifier, Random Forrest Classifier, SVM Classifier from the sklearn library on Categorizing Articles based on the their content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Python</small>
+                  <small class="text-muted">Machine Learning</small>
+                  <small class="text-muted">Decision Tree</small>
+                  <small class="text-muted">Random Forrest</small>
+                  <small class="text-muted">SVM</small>
+                </div>
+              </div>
             </div>
         </div>
     </div>
@@ -98,51 +163,52 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <footer class="white" id="footer">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/aryan.nesti" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a> -->
+    
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="mailto:AryanNesti60@gmail.com" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!fa" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a> -->
+    
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/aryan-nesti-047611222/" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AryanNesti" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"> Aryan Nesti, 2022 | Terms and Service | Privacy Statement</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
   </body>
-  <footer class="white" id="footer">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
   
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-    </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"> Aryan Nesti, 2022 | Terms and Service | Privacy Statement</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
 </html>

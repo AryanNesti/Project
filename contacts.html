@@ -10,36 +10,48 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f28ba794e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="images/logo_nrX_icon.ico">
 
-    <div class="topnav">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- <div class="topnav">
         <img class="resize" src="images/logo_nrX_icon.ico">
         <input type="text" placeholder="Search..">
         <a id="white" href="https://www.linkedin.com/in/aryan-nesti-047611222/">Linkden</a>
-    </div>
+    </div> -->
   </head>
     <nav id="mobile_menu">
 
     </nav>
     <ul id="nav_menu">
-        <li>
-            <a href="index.html" class="white">Home</a>
-        </li>
-        <li>
-            <a href="Projects.html" class="white">Projects</a>
-            <ul id="sub">
-              <li><a href="c++.html" class="white">C++</a></li>
-              <li><a href="python.html" class="white">Python</a></li>
-              <li><a href="miscellaneous.html" class="white">Miscellaneous</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="contacts.html" class="current">Contacts</a>
-            <ul id="sub">
-              <li><a href="resume.html" class="white">Resume</a></li>
-            </ul>
-        </li>
-
+      <li>
+        <img class="resize" src="images/logo_nrX_icon.ico">
+      </li>
+      <li>
+        <a href="index.html" class="white">Home</a>
+      </li>
+      <li>
+          <a href="Projects.html" class="white">Projects</a>
+          <ul id="sub">
+            <li><a href="python.html" class="white">Python</a></li>
+            <li><a href="c++.html" class="white">C++</a></li>
+            <li><a href="miscellaneous.html" class="white">Web Development</a></li>
+            <li><a href="projects.html" class="white">All Projects</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="contacts.html" class="current">Contacts</a>
+          <ul id="sub">
+            <li><a href="resume.html" class="white">Resume</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="linkedin" href="https://www.linkedin.com/in/aryan-nesti-047611222/">Linkden</a>
+      </li>
     </ul>
   <body>
       <div id="container">
@@ -47,21 +59,18 @@
         <p class="move">Here you can leave your information to contact me for any of your needs</p>
         <div id="main">
             <div class="rowcenter">
-                <form action="" class="form1">
+                  <form action="https://formcarry.com/s/Ca36THMJSg" method="POST" class="form1">
                     <div class="form-group">
                         <label for="firstname">Full Name:</label>
-                        <input type="text" class="form-control" id="firstname"
-                                placeholder="Enter full name" name="firstname">
+                        <input type="text" class="form-control" id="firstname" placeholder="Enter full name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email"
-                                placeholder="Enter email" name="email">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
                     </div>
                     <div class="form-group">
                         <label for="lastname">Comment:</label>
-                        <input type="comment" class="form-control"
-                                placeholder="Write your comments here" name="lastname">
+                        <textarea type="comment" class="form-control" placeholder="Write your comments here" name="message"></textarea>
                     </div>
                     <button type="submit">Submit</button>
                 </form>
@@ -80,32 +89,32 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/aryan.nesti" role="button"
           ><i class="fab fa-facebook-f"></i
         ></a>
   
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-twitter"></i
-        ></a>
+        ></a> -->
   
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:AryanNesti60@gmail.com" role="button"
           ><i class="fab fa-google"></i
         ></a>
   
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!fa" role="button"
           ><i class="fab fa-instagram"></i
-        ></a>
+        ></a> -->
   
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/aryan-nesti-047611222/" role="button"
           ><i class="fab fa-linkedin-in"></i
         ></a>
   
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AryanNesti" role="button"
           ><i class="fab fa-github"></i
         ></a>
       </section>

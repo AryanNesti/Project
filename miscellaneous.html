@@ -8,14 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f28ba794e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
-    <div class="topnav">
+    <link rel="shortcut icon" href="images/logo_nrX_icon.ico">
+    <!-- <div class="topnav">
         <img class="resize" src="images/logo_nrX_icon.ico">
         <input type="text" placeholder="Search..">
         <a id="white" href="https://www.linkedin.com/in/aryan-nesti-047611222/">Linkden</a>
-    </div>
+    </div> -->
   </head>
 
 
@@ -23,115 +26,79 @@
 
     </nav>
     <ul id="nav_menu">
-        <li>
-            <a href="index.html" class="white">Home</a>
-        </li>
-        <li>
-            <a href="Projects.html" class="white">Projects</a>
-            <ul id="sub">
-                <li><a href="c++.html" class="white">C++</a></li>
-                <li><a href="python.html" class="white">Python</a></li>
-                <li><a href="miscellaneous.html" class="current">Miscellaneous</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="contacts.html" class="white">Contact</a>
-            <ul id="sub">
-              <li><a href="resume.html" class="white">Resume</a></li>
-            </ul>
-        </li>
-
+      <li>
+        <img class="resize" src="images/logo_nrX_icon.ico">
+      </li>
+      <li>
+        <a href="index.html" class="white">Home</a>
+      </li>
+      <li>
+          <a href="Projects.html" class="white">Projects</a>
+          <ul id="sub">
+            <li><a href="python.html" class="white">Python</a></li>
+            <li><a href="c++.html" class="white">C++</a></li>
+            <li><a href="miscellaneous.html" class="current">Web Development</a></li>
+            <li><a href="projects.html" class="white">All Projects</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="contacts.html" class="white">Contacts</a>
+          <ul id="sub">
+            <li><a href="resume.html" class="white">Resume</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="linkedin" href="https://www.linkedin.com/in/aryan-nesti-047611222/">Linkden</a>
+      </li>
     </ul>
   <body>
       <div id="container">
             <h1 class="move">Programs of other languages</h1>
           <div id="main">
             <div class="card-deck">
-                <div class="card">
-                  <img class="cardsize" src="images/directory-sorter.png">
+              <div class="card">
+                <img class="cardsize" src="images/MyWebClass.png" alt="Project Image Here">
                   <div class="card-body">
-                    <h4 class="card-title">Directory Sorter</h4>
-                    <p class="card-text">This C program takes a directory as an argument and processes through the directory and then sorts them respective to their size.</p>
+                    <a href="https://njit-wis.github.io/project-2-is-219-sea/"><h4 class="card-title"><i class="fa-regular fa-link"></i> MyWebClass</h4></a>
+                    <p class="card-text">This Web Project is created using Next.js and was made to demonstrate a sales funnel. Some things implemented are MailChimp, GDPR, Google Analytics, Play Write tests, Sanity and more that can be found on the <a href="https://github.com/NJIT-WIS/project-2-is-219-sea">github</a> repository.</p>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">C</small>
+                    <small class="text-muted">Next.js</small>
+                    <small class="text-muted">Tailwind</small>
+                    <small class="text-muted">Google Analytics</small>
+                    <small class="text-muted">GDPR</small>
+                    <small class="text-muted">MailChimp</small>
+                    <small class="text-muted">Sanity</small>
+                    <small class="text-muted">PlayWrite Tests</small>
                   </div>
+              </div>
+              <div class="card">
+                <img class="cardsize" src="images/Realest_Estates.png" alt="EMG">
+                <div class="card-body">
+                  <a href="https://github.com/AryanNesti/Realest-Estate"><h4 class="card-title"><i class="fa-regular fa-link"></i> Realest Estates</h4></a>
+                  <p class="card-text">This Web Project uses a Real-Estate API to give real time data on homes that are on sale. You can sign up, login and favorite/bookmark homes or properties that may be of interest to you. It may take a while to load, as the front-end and back-end are both hosted on render, which after a while will power down if there is no activity.</p>
                 </div>
-                <div class="card">
-                  <img class="cardsize" src="images/Black-Jack.png">
-                  <div class="card-body">
-                    <h4 class="card-title">Black Jack</h4>
-                    <p class="card-text">This java program is your basic black jack game played in casinos, but without actualy gambling and is only single player.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Java</small>
-                  </div>
+                <div class="card-footer">
+                  <small class="text-muted">React</small>
+                  <small class="text-muted">Render</small>
+                  <small class="text-muted">Real-Estate API</small>
+                  <small class="text-muted">SQLite</small>
+                  <small class="text-muted">Hashing</small>
+                  <small class="text-muted">JWT token</small>
                 </div>
-                <div class="card">
-                  <img class="cardsize" src="images/rock-paper-scissors.jpeg">
-                  <div class="card-body">
-                    <h4 class="card-title">Rock, Paper, Scissors</h4>
-                    <p class="card-text">This java program is your basic rock, paper scissors game, but against a computer.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Java</small>
-                  </div>
+              </div>
+              <div class="card">
+                <img class="cardsize" src="images/portfolio.png" alt="Resume Website">
+                <div class="card-body">
+                  <h4 class="card-title"><i class="fa-regular fa-link"></i> Portfolio Website</h4>
+                  <p class="card-text">This webpage project is pure HTML and CSS that is used to showcase my portfolio, ranging from my projects in several languages and my resume that is up to date. If you would like to view this project then, reload because you are already viewing this project as you traverse this Website.</p>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="images/website.png" alt="Resume Website">
-                  <div class="card-body">
-                    <h4 class="card-title">Resume Website</h4>
-                    <p class="card-text">This is the code in which I programmed this website</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">html/css</small>
-                  </div>
+                <div class="card-footer">
+                  <small class="text-muted">html</small>
+                  <small class="text-muted">css</small>
+                  <small class="text-muted">bootstrap</small>
                 </div>
-            </div>
-            <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="images/Bash-Script.png" alt="Adding Numbers">
-                  <div class="card-body">
-                    <h4 class="card-title">Bash Scripting</h4>
-                      <p class="card-text">This Bash program takes the name of a file or directory as an argument and reports whether it is a directory or file and if its a fille, what kind of permissions the file has.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Bash</small>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="images/adding.png" alt="Adding Numbers">
-                  <div class="card-body">
-                    <h4 class="card-title">Shell Script</h4>
-                      <p class="card-text">This bash progrma takes a filename as an argument and checks if the file exists and then creates a backup of the file using its own name and time.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Bash</small>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="images/adding.png" alt="Adding Numbers">
-                  <div class="card-body">
-                    <h4 class="card-title">Adding Numbers</h4>
-                      <p class="card-text">A Bash script that takes a list of numbers as arguments. The output is the sum of the 
-                        numbers. </p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Bash</small>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="images/delete-files.png" alt="Removing Files">
-                    <div class="card-body">
-                      <h4 class="card-title">Removing Files</h4>
-                      <p class="card-text">A Bash script that removes all zero length ordinary files in the directory (including those in 
-                        the sub-directories at all levels) passed as an optional argument. If you do not specify the 
-                        directory argument, the script uses the current working directory as the default argument.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Bash</small>
-                    </div>
-                  </div>
+              </div>
             </div>
           </div>
       </div>
@@ -148,32 +115,32 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/aryan.nesti" role="button"
           ><i class="fab fa-facebook-f"></i
         ></a>
   
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-twitter"></i
-        ></a>
+        ></a> -->
   
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:AryanNesti60@gmail.com" role="button"
           ><i class="fab fa-google"></i
         ></a>
   
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!fa" role="button"
           ><i class="fab fa-instagram"></i
-        ></a>
+        ></a> -->
   
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/aryan-nesti-047611222/" role="button"
           ><i class="fab fa-linkedin-in"></i
         ></a>
   
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AryanNesti" role="button"
           ><i class="fab fa-github"></i
         ></a>
       </section>
